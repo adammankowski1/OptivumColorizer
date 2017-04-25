@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         OptivumColorizer
 // @namespace    http://tampermonkey.net/
-// @version      0.12
 // @description  Makes better view of lesson plan and colorize it.
 // @author       TheQuake
 // @require      http://code.jquery.com/jquery-latest.js
@@ -21,7 +20,7 @@
             var color = '#';
             Math.seedrandom(seedCount);
             for(var i = 0; i < 3; i++) {
-                color += parseInt((Math.random()*255)).toString(16);
+                color += ("00" + (parseInt((Math.random()*255))).toString(16)).slice(-2);
             }
             return color;
         };
