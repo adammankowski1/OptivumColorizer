@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         OptivumColorizer
 // @namespace    http://tampermonkey.net/
+// @version      0.13
 // @description  Makes better view of lesson plan and colorize it.
 // @author       TheQuake
 // @require      http://code.jquery.com/jquery-latest.js
